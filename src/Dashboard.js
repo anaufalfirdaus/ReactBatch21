@@ -8,7 +8,9 @@ const navigate = [
     { name: 'Region Api Upload', href: 'upload', current: false },
     { name: 'Employee Redux', href: 'EmpRedux', current: false },
     { name: 'Employee Redux Tool', href: 'EmpTool', current: false },
-    { name: 'Employee Redux Saga', href: 'Saga', current: false }
+    { name: 'Employee Redux Saga', href: 'Saga', current: false },
+    { name: 'Sign Up', href: 'signup', current: false },
+    { name: 'Sign In', href: 'signin', current: false }
 ]
 export default function Dashboard() {
     return (
